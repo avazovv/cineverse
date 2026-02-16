@@ -1,0 +1,26 @@
+[
+  {
+    "page": 1,
+    "results": [
+      {
+        "adult": false,
+        "backdrop_path": "/path.jpg",
+        "id": 123,
+        "title": "Mock Movie 1",
+        "original_language": "en",
+        "original_title": "Mock Movie 1",
+        "overview": "Overview 1",
+        "poster_path": "/poster.jpg",
+        "media_type": "movie",
+        "genre_ids": [1, 2],
+        "popularity": 100.0,
+        "release_date": "2023-01-01",
+        "video": false,
+        "vote_average": 8.0,
+        "vote_count": 100
+      }
+    ],
+    "total_pages": 1,
+    "total_results": 1
+  }
+]
