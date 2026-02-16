@@ -1,177 +1,181 @@
+// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
 
+/// The translations for Russian (`ru`).
 class AppLocalizationsRu extends AppLocalizations {
   AppLocalizationsRu([String locale = 'ru']) : super(locale);
 
   @override
-  String get profileTitle => 'Profile';
+  String get profileTitle => 'Профиль';
 
   @override
-  String get settingsTitle => 'Settings';
+  String get settingsTitle => 'Настройки';
 
   @override
-  String get languageTitle => 'Language';
+  String get languageTitle => 'Язык';
 
   @override
-  String get darkModeTitle => 'Dark Mode';
+  String get darkModeTitle => 'Темная тема';
 
   @override
-  String get notificationsTitle => 'Notifications';
+  String get notificationsTitle => 'Уведомления';
 
   @override
-  String get aboutTitle => 'About';
+  String get aboutTitle => 'О приложении';
 
   @override
-  String get appVersionTitle => 'App Version';
+  String get appVersionTitle => 'Версия';
 
   @override
-  String get developerTitle => 'Developer';
+  String get developerTitle => 'Разработчик';
 
   @override
-  String get dataSourceTitle => 'Data Source';
+  String get dataSourceTitle => 'Источник данных';
 
   @override
-  String get privacyPolicyTitle => 'Privacy Policy';
+  String get privacyPolicyTitle => 'Политика конфиденциальности';
 
   @override
-  String get termsOfServiceTitle => 'Terms of Service';
+  String get termsOfServiceTitle => 'Условия использования';
 
   @override
-  String get logoutButton => 'Logout';
+  String get logoutButton => 'Выйти';
 
   @override
-  String get logoutDialogTitle => 'Logout';
+  String get logoutDialogTitle => 'Выход';
 
   @override
-  String get logoutDialogContent => 'Are you sure you want to logout?';
+  String get logoutDialogContent => 'Вы уверены, что хотите выйти?';
 
   @override
-  String get cancelButton => 'Cancel';
+  String get cancelButton => 'Отмена';
 
   @override
-  String get guestUser => 'Guest User';
+  String get guestUser => 'Гость';
 
   @override
   String get guestEmail => 'guest@cineverse.app';
 
   @override
-  String get homeNav => 'Home';
+  String get homeNav => 'Главная';
 
   @override
-  String get searchNav => 'Search';
+  String get searchNav => 'Поиск';
 
   @override
-  String get watchlistNav => 'Watchlist';
+  String get watchlistNav => 'Избранное';
 
   @override
-  String get profileNav => 'Profile';
+  String get profileNav => 'Профиль';
 
   @override
-  String get trendingNow => '🔥 Trending Now';
+  String get trendingNow => '🔥 В тренде';
 
   @override
-  String get popular => '⭐ Popular';
+  String get popular => '⭐ Популярное';
 
   @override
-  String get topRated => '🏆 Top Rated';
+  String get topRated => '🏆 Топ рейтинг';
 
   @override
-  String get nowPlaying => '🎬 Now Playing';
+  String get nowPlaying => '🎬 Сейчас в кино';
 
   @override
-  String get searchHint => 'Search for movies...';
+  String get searchHint => 'Поиск фильмов...';
 
   @override
-  String get noMoviesFound => 'No movies found';
+  String get noMoviesFound => 'Фильмы не найдены';
 
   @override
-  String get startSearching => 'Find your next favorite movie';
+  String get startSearching => 'Найдите свой следующий любимый фильм';
 
   @override
-  String get searchError => 'Something went wrong';
+  String get searchError => 'Что-то пошло не так';
 
   @override
-  String get tryAgain => 'Try Again';
+  String get tryAgain => 'Повторить';
 
   @override
-  String get watchlistTitle => 'My Watchlist';
+  String get watchlistTitle => 'МОЙ СПИСОК';
 
   @override
-  String get watchlistEmpty => 'No movies in your watchlist yet';
+  String get watchlistEmpty => 'В избранном пока пусто';
 
   @override
-  String get watchlistEmptySubtitle => 'Add movies from search or detail page';
+  String get watchlistEmptySubtitle =>
+      'Добавляйте фильмы из поиска или страницы деталей';
 
   @override
   String get termsOfServiceText =>
-      'Terms of Service for CineVerse\n\nLast updated: February 15, 2026\n\n1. Agreement to Terms\nBy accessing or using our application, you agree to be bound by these Terms of Service and our Privacy Policy.\n\n2. Intellectual Property Rights\nCineVerse and/or its licensors own all the intellectual property rights and materials contained in this Application.\n\n3. Restrictions\nYou are restricted from selling, sublicensing and/or otherwise commercializing any Application material.\n\n4. User Content\nYour Content shall mean any audio, video text, images or other material you choose to display on this Application.\n\n5. No Warranties\nThis Application is provided \"as is,\" with all faults.\n\n6. Limitation of Liability\nIn no event shall CineVerse be held liable for anything arising out of or in any way connected with your use of this Application.\n\n7. Governing Law & Jurisdiction\nThese Terms will be governed by and interpreted in accordance with the laws of the State of Uzbekistan.';
+      'Условия использования CineVerse\n\nПоследнее обновление: 15 февраля 2026\n\n1. Согласие с условиями\nИспользуя наше приложение, вы соглашаетесь с этими Условиями использования и нашей Политикой конфиденциальности.\n\n2. Права интеллектуальной собственности\nCineVerse и/или его лицензиары владеют всеми правами интеллектуальной собственности и материалами, содержащимися в этом Приложении.\n\n3. Ограничения\nВам запрещено продавать, сублицензировать и/или иным образом коммерциализировать любые материалы Приложения.\n\n4. Пользовательский контент\nВаш Контент означает любой аудио, видео текст, изображения или другие материалы, которые вы решите отобразить в этом Приложении.\n\n5. Отсутствие гарантий\nЭто Приложение предоставляется «как есть», со всеми недостатками.\n\n6. Ограничение ответственности\nНи при каких обстоятельствах CineVerse не несет ответственности за что-либо, возникающее из или каким-либо образом связанное с вашим использованием этого Приложения.\n\n7. Применимое право и юрисдикция\nЭти Условия регулируются и толкуются в соответствии с законами Республики Узбекистан.';
 
   @override
   String get privacyPolicyText =>
-      'Privacy Policy for CineVerse\n\nLast updated: February 15, 2026\n\n1. Introduction\nWelcome to CineVerse. We respect your privacy and are committed to protecting your personal data.\n\n2. Data We Collect\nWe may collect Identity Data, Contact Data, Technical Data, and Profile Data.\n\n3. How We Use Your Data\nWe will only use your personal data when the law allows us to.\n\n4. Data Security\nWe have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorized way.\n\n5. Your Legal Rights\nYou have rights under data protection laws in relation to your personal data.\n\n6. Contact Us\nIf you have any questions, please contact us at: support@cineverse.app';
+      'Политика конфиденциальности CineVerse\n\nПоследнее обновление: 15 февраля 2026\n\n1. Введение\nДобро пожаловать в CineVerse. Мы уважаем вашу конфиденциальность и обязуемся защищать ваши персональные данные.\n\n2. Данные, которые мы собираем\nМы можем собирать идентификационные данные, контактные данные, технические данные и данные профиля.\n\n3. Как мы используем ваши данные\nМы будем использовать ваши персональные данные только тогда, когда это позволяет закон.\n\n4. Безопасность данных\nМы приняли соответствующие меры безопасности, чтобы предотвратить случайную потерю, использование или доступ к вашим персональным данным несанкционированным образом.\n\n5. Ваши законные права\nУ вас есть права в соответствии с законами о защите данных в отношении ваших персональных данных.\n\n6. Свяжитесь с нами\nЕсли у вас есть вопросы, пожалуйста, свяжитесь с нами по адресу: support@cineverse.app';
 
   @override
-  String get loginTitle => 'Sign In';
+  String get loginTitle => 'Вход';
 
   @override
-  String get signInGoogle => 'Sign in with Google';
+  String get signInGoogle => 'Войти через Google';
 
   @override
-  String get onboardingTitle1 => 'Unlimited Entertainment';
+  String get onboardingTitle1 => 'Безграничные развлечения';
 
   @override
   String get onboardingDesc1 =>
-      'Discover thousands of movies, TV shows, and more.';
+      'Откройте для себя тысячи фильмов, сериалов и многое другое.';
 
   @override
-  String get onboardingTitle2 => 'Watch Anywhere';
+  String get onboardingTitle2 => 'Смотрите везде';
 
   @override
   String get onboardingDesc2 =>
-      'Stream on your phone, tablet, laptop, and TV without paying more.';
+      'Смотрите на телефоне, планшете, ноутбуке и ТВ без переплат.';
 
   @override
-  String get onboardingTitle3 => 'Create Profiles';
+  String get onboardingTitle3 => 'Создайте профиль';
 
   @override
   String get onboardingDesc3 =>
-      'Sign in to access your personalized recommendations.';
+      'Войдите, чтобы получить персональные рекомендации.';
 
   @override
-  String get getStarted => 'Get Started';
+  String get getStarted => 'Начать';
 
   @override
-  String get next => 'Next';
+  String get next => 'Далее';
 
   @override
-  String get skip => 'Skip';
+  String get skip => 'Пропустить';
 
   @override
-  String get editProfileTitle => 'Edit Profile';
+  String get editProfileTitle => 'Редактировать профиль';
 
   @override
-  String get firstNameLabel => 'First Name';
+  String get firstNameLabel => 'Имя';
 
   @override
-  String get lastNameLabel => 'Last Name';
+  String get lastNameLabel => 'Фамилия';
 
   @override
   String get emailLabel => 'Email';
 
   @override
-  String get saveChangesButton => 'Save Changes';
+  String get saveChangesButton => 'Сохранить';
 
   @override
-  String get choosePhotoOption => 'Choose Photo';
+  String get choosePhotoOption => 'Выбрать фото';
 
   @override
-  String get takePhotoOption => 'Take Photo';
+  String get takePhotoOption => 'Сделать фото';
 
   @override
-  String get removePhotoOption => 'Remove Photo';
+  String get removePhotoOption => 'Удалить фото';
 
   @override
-  String get selectPhotoSource => 'Select Photo Source';
+  String get selectPhotoSource => 'Выберите источник фото';
 }

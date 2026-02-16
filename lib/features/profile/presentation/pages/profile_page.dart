@@ -262,9 +262,8 @@ class _ProfilePageState extends State<ProfilePage> {
             title: l10n.notificationsTitle,
             trailing: CupertinoSwitch(
               value: false,
-              activeColor: const Color(0xFFE50914),
-              onChanged: (value) {
-              },
+              activeTrackColor: const Color(0xFFE50914),
+              onChanged: (value) {},
             ),
           ),
         ],

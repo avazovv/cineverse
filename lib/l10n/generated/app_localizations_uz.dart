@@ -1,177 +1,181 @@
+// ignore: unused_import
 import 'package:intl/intl.dart' as intl;
 import 'app_localizations.dart';
 
+// ignore_for_file: type=lint
 
+/// The translations for Uzbek (`uz`).
 class AppLocalizationsUz extends AppLocalizations {
   AppLocalizationsUz([String locale = 'uz']) : super(locale);
 
   @override
-  String get profileTitle => 'Profile';
+  String get profileTitle => 'Profil';
 
   @override
-  String get settingsTitle => 'Settings';
+  String get settingsTitle => 'Sozlamalar';
 
   @override
-  String get languageTitle => 'Language';
+  String get languageTitle => 'Til';
 
   @override
-  String get darkModeTitle => 'Dark Mode';
+  String get darkModeTitle => 'Tungi rejim';
 
   @override
-  String get notificationsTitle => 'Notifications';
+  String get notificationsTitle => 'Bildirishnomalar';
 
   @override
-  String get aboutTitle => 'About';
+  String get aboutTitle => 'Ilova haqida';
 
   @override
-  String get appVersionTitle => 'App Version';
+  String get appVersionTitle => 'Versiya';
 
   @override
-  String get developerTitle => 'Developer';
+  String get developerTitle => 'Dasturchi';
 
   @override
-  String get dataSourceTitle => 'Data Source';
+  String get dataSourceTitle => 'Ma\'lumot manbai';
 
   @override
-  String get privacyPolicyTitle => 'Privacy Policy';
+  String get privacyPolicyTitle => 'Maxfiylik siyosati';
 
   @override
-  String get termsOfServiceTitle => 'Terms of Service';
+  String get termsOfServiceTitle => 'Foydalanish shartlari';
 
   @override
-  String get logoutButton => 'Logout';
+  String get logoutButton => 'Chiqish';
 
   @override
-  String get logoutDialogTitle => 'Logout';
+  String get logoutDialogTitle => 'Chiqish';
 
   @override
-  String get logoutDialogContent => 'Are you sure you want to logout?';
+  String get logoutDialogContent => 'Rostdan ham chiqmoqchimisiz?';
 
   @override
-  String get cancelButton => 'Cancel';
+  String get cancelButton => 'Bekor qilish';
 
   @override
-  String get guestUser => 'Guest User';
+  String get guestUser => 'Mehmon';
 
   @override
   String get guestEmail => 'guest@cineverse.app';
 
   @override
-  String get homeNav => 'Home';
+  String get homeNav => 'Asosiy';
 
   @override
-  String get searchNav => 'Search';
+  String get searchNav => 'Qidiruv';
 
   @override
-  String get watchlistNav => 'Watchlist';
+  String get watchlistNav => 'Saqlanganlar';
 
   @override
-  String get profileNav => 'Profile';
+  String get profileNav => 'Profil';
 
   @override
-  String get trendingNow => '🔥 Trending Now';
+  String get trendingNow => '🔥 Hozir Trendda';
 
   @override
-  String get popular => '⭐ Popular';
+  String get popular => '⭐ Mashhur';
 
   @override
-  String get topRated => '🏆 Top Rated';
+  String get topRated => '🏆 Yuqori Reyting';
 
   @override
-  String get nowPlaying => '🎬 Now Playing';
+  String get nowPlaying => '🎬 Hozir Kinoteatrlarda';
 
   @override
-  String get searchHint => 'Search for movies...';
+  String get searchHint => 'Filmlarni qidirish...';
 
   @override
-  String get noMoviesFound => 'No movies found';
+  String get noMoviesFound => 'Filmlar topilmadi';
 
   @override
-  String get startSearching => 'Find your next favorite movie';
+  String get startSearching => 'Sevimli filmingizni toping';
 
   @override
-  String get searchError => 'Something went wrong';
+  String get searchError => 'Xatolik yuz berdi';
 
   @override
-  String get tryAgain => 'Try Again';
+  String get tryAgain => 'Qayta urinish';
 
   @override
-  String get watchlistTitle => 'My Watchlist';
+  String get watchlistTitle => 'MENING RO\'YXATIM';
 
   @override
-  String get watchlistEmpty => 'No movies in your watchlist yet';
+  String get watchlistEmpty => 'Ro\'yxat bo\'sh';
 
   @override
-  String get watchlistEmptySubtitle => 'Add movies from search or detail page';
+  String get watchlistEmptySubtitle =>
+      'Qidiruv yoki tafsilotlar sahifasidan filmlar qo\'shing';
 
   @override
   String get termsOfServiceText =>
-      'Terms of Service for CineVerse\n\nLast updated: February 15, 2026\n\n1. Agreement to Terms\nBy accessing or using our application, you agree to be bound by these Terms of Service and our Privacy Policy.\n\n2. Intellectual Property Rights\nCineVerse and/or its licensors own all the intellectual property rights and materials contained in this Application.\n\n3. Restrictions\nYou are restricted from selling, sublicensing and/or otherwise commercializing any Application material.\n\n4. User Content\nYour Content shall mean any audio, video text, images or other material you choose to display on this Application.\n\n5. No Warranties\nThis Application is provided \"as is,\" with all faults.\n\n6. Limitation of Liability\nIn no event shall CineVerse be held liable for anything arising out of or in any way connected with your use of this Application.\n\n7. Governing Law & Jurisdiction\nThese Terms will be governed by and interpreted in accordance with the laws of the State of Uzbekistan.';
+      'CineVerse Foydalanish Shartlari\n\nOxirgi yangilanish: 2026-yil 15-fevral\n\n1. Shartlarga rozi bo\'lish\nIlovamizdan foydalanish orqali siz ushbu Foydalanish Shartlari va Maxfiylik Siyosatiga rozilik bildirasiz.\n\n2. Intellektual Mulk Huquqlari\nCineVerse va/yoki uning litsenziarlari ushbu Ilovadagi barcha intellektual mulk huquqlari va materiallarga egalik qiladi.\n\n3. Cheklovlar\nSizga Ilova materiallarini sotish, sublitsenziyalash va/yoki boshqa tijorat maqsadlarida foydalanish taqiqlanadi.\n\n4. Foydalanuvchi Kontenti\nSizning Kontentingiz ushbu Ilovada ko\'rsatish uchun tanlagan har qanday audio, video matn, tasvir yoki boshqa materiallarni anglatadi.\n\n5. Kafolatlar Yo\'qligi\nUshbu Ilova \"boricha\" taqdim etiladi, barcha kamchiliklari bilan.\n\n6. Javobgarlikni Cheklash\nCineVerse hech qanday holatda ushbu Ilovadan foydalanish bilan bog\'liq bo\'lgan har qanday hodisa uchun javobgar bo\'lmaydi.\n\n7. Amaldagi Qonunchilik\nUshbu Shartlar O\'zbekiston Respublikasi qonunlariga muvofiq tartibga solinadi va talqin qilinadi.';
 
   @override
   String get privacyPolicyText =>
-      'Privacy Policy for CineVerse\n\nLast updated: February 15, 2026\n\n1. Introduction\nWelcome to CineVerse. We respect your privacy and are committed to protecting your personal data.\n\n2. Data We Collect\nWe may collect Identity Data, Contact Data, Technical Data, and Profile Data.\n\n3. How We Use Your Data\nWe will only use your personal data when the law allows us to.\n\n4. Data Security\nWe have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorized way.\n\n5. Your Legal Rights\nYou have rights under data protection laws in relation to your personal data.\n\n6. Contact Us\nIf you have any questions, please contact us at: support@cineverse.app';
+      'CineVerse Maxfiylik Siyosati\n\nOxirgi yangilanish: 2026-yil 15-fevral\n\n1. Kirish\nCineVerse ga xush kelibsiz. Biz sizning maxfiyligingizni hurmat qilamiz va shaxsiy ma\'lumotlaringizni himoya qilishga majburmiz.\n\n2. Biz To\'playdigan Ma\'lumotlar\nBiz Shaxsiy Ma\'lumotlar, Aloqa Ma\'lumotlari, Texnik Ma\'lumotlar va Profil Ma\'lumotlarini to\'plashimiz mumkin.\n\n3. Ma\'lumotlaringizdan Foydalanish\nBiz sizning shaxsiy ma\'lumotlaringizdan faqat qonun ruxsat bergan hollarda foydalanamiz.\n\n4. Ma\'lumotlar Xavfsizligi\nBiz shaxsiy ma\'lumotlaringizni tasodifiy yo\'qotish, ruxsatsiz foydalanish yoki kirishdan himoya qilish uchun tegishli xavfsizlik choralarini ko\'rdik.\n\n5. Sizning Qonuniy Huquqlaringiz\nSiz ma\'lumotlarni himoya qilish qonunlariga muvofiq shaxsiy ma\'lumotlaringizga oid huquqlarga egasiz.\n\n6. Biz bilan Bog\'lanish\nAgar savollaringiz bo\'lsa, iltimos biz bilan bog\'laning: support@cineverse.app';
 
   @override
-  String get loginTitle => 'Sign In';
+  String get loginTitle => 'Kirish';
 
   @override
-  String get signInGoogle => 'Sign in with Google';
+  String get signInGoogle => 'Google orqali kirish';
 
   @override
-  String get onboardingTitle1 => 'Unlimited Entertainment';
+  String get onboardingTitle1 => 'Cheksiz O\'yin-kulgi';
 
   @override
   String get onboardingDesc1 =>
-      'Discover thousands of movies, TV shows, and more.';
+      'Minglab filmlar, seriallar va ko\'proq narsalarni kashf eting.';
 
   @override
-  String get onboardingTitle2 => 'Watch Anywhere';
+  String get onboardingTitle2 => 'Istalgan joyda tomosha qiling';
 
   @override
   String get onboardingDesc2 =>
-      'Stream on your phone, tablet, laptop, and TV without paying more.';
+      'Telefon, planshet, noutbuk va TV da ortiqcha to\'lovsiz tomosha qiling.';
 
   @override
-  String get onboardingTitle3 => 'Create Profiles';
+  String get onboardingTitle3 => 'Profil yarating';
 
   @override
   String get onboardingDesc3 =>
-      'Sign in to access your personalized recommendations.';
+      'Shaxsiy tavsiyalarni olish uchun tizimga kiring.';
 
   @override
-  String get getStarted => 'Get Started';
+  String get getStarted => 'Boshlash';
 
   @override
-  String get next => 'Next';
+  String get next => 'Keyingisi';
 
   @override
-  String get skip => 'Skip';
+  String get skip => 'O\'tkazib yuborish';
 
   @override
-  String get editProfileTitle => 'Edit Profile';
+  String get editProfileTitle => 'Profilni Tahrirlash';
 
   @override
-  String get firstNameLabel => 'First Name';
+  String get firstNameLabel => 'Ism';
 
   @override
-  String get lastNameLabel => 'Last Name';
+  String get lastNameLabel => 'Familiya';
 
   @override
   String get emailLabel => 'Email';
 
   @override
-  String get saveChangesButton => 'Save Changes';
+  String get saveChangesButton => 'Saqlash';
 
   @override
-  String get choosePhotoOption => 'Choose Photo';
+  String get choosePhotoOption => 'Galereyadan tanlash';
 
   @override
-  String get takePhotoOption => 'Take Photo';
+  String get takePhotoOption => 'Rasmga olish';
 
   @override
-  String get removePhotoOption => 'Remove Photo';
+  String get removePhotoOption => 'Rasmni o\'chirish';
 
   @override
-  String get selectPhotoSource => 'Select Photo Source';
+  String get selectPhotoSource => 'Rasm manbasini tanlang';
 }
